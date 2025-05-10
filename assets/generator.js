@@ -167,7 +167,7 @@ save.addEventListener('click', () => {
             })
             .then(() => {
                 save.classList.remove("image_button_loading");
-                location.href = '/dashboard'
+                location.href = '/chipotle2/dashboard'
             })
         }
     }
