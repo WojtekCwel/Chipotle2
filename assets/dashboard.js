@@ -84,7 +84,7 @@ if (create){
         if (limit){
             notify('Osiągnięto limit dowodów.', 'error')
         }else{
-            location.href = '/generator'
+            location.href = '/chipotle2/generator'
         }
     })
 }
@@ -166,9 +166,9 @@ function deleteId(id){
 }
 
 function editId(id){
-    location.href = '/generator?id=' + id;
+    location.href = '/chipotle2/generator?id=' + id;
 }
 
 function enterId(token){
-    location.href = '/id?card_token=' + token;
+    location.href = '/chipotle2/id?card_token=' + token;
 }
